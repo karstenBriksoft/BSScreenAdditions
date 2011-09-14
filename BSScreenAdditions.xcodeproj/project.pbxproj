@@ -178,11 +178,13 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ScreenAdditions_Prefix.pch;
+				GCC_PREFIX_HEADER = BSScreenAdditions_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ScreenAdditions;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
 			};
 			name = Debug;
 		};
@@ -190,15 +192,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = ScreenAdditions_Prefix.pch;
+				GCC_PREFIX_HEADER = BSScreenAdditions_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ScreenAdditions;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
 			};
 			name = Release;
 		};

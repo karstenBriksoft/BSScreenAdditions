@@ -6,7 +6,7 @@
 //  Copyright 2011 Briksoftware.com. All rights reserved.
 //
 
-#import "NSScreenAdditions.h"
+#import "BSScreenAdditions.h"
 #import <IOKit/graphics/IOGraphicsLib.h>
 
 @implementation NSScreen (BSScreenAdditions)
